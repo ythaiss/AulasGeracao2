@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Tabela aula 03</title>
+
+    <!-- css ainda não explicado! -->
+    <style>
+        table,td,th,tr{
+       border: 2px solid black;
+       border-collapse: collapse;}
+      </style>
+</head>
+<body>
+    <h1>Tabela Telefone (Exemplo!)</h1>
+
+    <table>
+
+    <tr>
+    <th>Telefonico</th>
+    <th>Aluno</th>
+    <th>Tipo</th>
+    <th>Número</th>
+    </tr>
+
+    <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>casa</td>
+    <td>(85) 985769000</td>
+    </tr>
+
+    <tr>
+    <td>2</td>
+    <td>1</td>
+    <td>celular</td>
+    <td>(85)985769000</td>
+    </tr>
+   
+    </table>
+
+    <h1>Mesclagem Rowspan(Expansão)</h1>
+
+    <table>
+        <tr>
+            <th>Linguagem</th>
+            <th>Framework</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Python</td>
+            <td>Flask</td>
+        </tr>
+        <tr>
+            <td>FasrAPI</td>
+        </tr>
+        <tr>
+            <td rowspan="2">JavaScript</td>
+            <td>Express</td>
+        </tr>
+        <tr>
+            <td>Angular</td>
+        </tr>
+    </table>
+
+    <h1>Mesclagem Colspan(Exemplo!)</h1>
+
+    <table>
+
+    <tr>
+    <th>Telefonico</th>
+    <th>Aluno</th>
+    <th>Tipo</th>
+    <th>Número</th>
+    </tr>
+
+    <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>casa</td>
+    <td>(85) 985769000</td>
+    </tr>
+
+    <tr>
+    <td>2</td>
+    <td>1</td>
+    <td colspan="2">celular</td>
+    </tr>
+
+    <tr>
+     <td>1</td>
+    <td>1</td>
+    <td>casa</td>
+    <td>(85) 985769000</td>
+    </tr>
+    </table>
+
+    <h1>Tabela</h1>
+    <table>
+
+        <tr>
+            <th colspan="4" rowspan="5">Demografia</th>
+        </tr>
+        <tr>
+            <th>Meninos</th>
+            <th>Meninas</th>
+            <th>Professor</th>
+        </tr>
+        <tr>
+            <th colspan="4" rowspan="5">Turmas</th>
+        </tr>
+        <tr colspan="4">Turmas</tr>
+        <tr>
+            <td>20</td>
+            <td>5</td>
+            <td></td>
+        </tr>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+</body>
+</html>
