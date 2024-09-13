@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Atividade</title>
+</head>
+<body>
+    <h1>Fórmulario de Candidatura</h1>
+    <form action="#">
+        <label for="nomeUser">Nome:</label>
+        <input type="text" name="nomeUser" id="nomeUser">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <br>
+
+        <label for="cargos">Cargo de Tecnologia:</label>
+
+        <select name="cargos" id="cargos">
+            <option value="pessoa desenvolvedora">Pessoa Desenvolvedora</option>
+            <option value="analista de sistemas">Analista de Sistemas</option>
+            <option value="administrador(a) de banco de dados">Administrador(a) de Banco de Dados</option>
+            <option value="testador(a)">Testador(a)</option>
+        </select>
+        <br>
+        
+        <label for="sexo">Genêro:</label>
+
+        <input type="radio" name="sexo" id="masculino" value="masculino">
+        <label for="masculino">Masculino</label>
+
+        <input type="radio" name="sexo" id="feminino" value="feminino">
+        <label for="feminino">Feminino</label>
+
+        <input type="radio" name="sexo" id="outro" value="outro">
+        <label for="outro">Outro</label>
+        <br>
+        
+        <label>Unidade de Interesse:</label>
+
+        <input type="checkbox" name="fortaleza" id="fortaleza" value="fortaleza">
+        <label for="fortaleza">Fortaleza</label>
+
+        <input type="checkbox" name="caucaia" id="caucaia" value="caucaia">
+        <label for="caucaia">Caucaia</label>
+
+        <input type="checkbox" name="eusebio" id="eusebio" value="eusebio">
+        <label for="eusebio">Eusébio</label>
+        <br>
+
+        <label for="texto">Fale mais sobre você:</label>
+        <br>
+        <textarea name="texto" id="texto" cols="50" rows="5" maxlength="500"></textarea>
+        <br>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
