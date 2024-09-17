@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DISPLAY INLINE, INELINE-BLOCK, BLOCK, NONE</title>
+    <style>
+        .conteudo{
+            background-color: grey;
+        }
+        .cor1{
+            background-color: lightblue;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        .cor2{
+            background-color: lightcoral;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        .cor3{
+            background-color: lightskyblue;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        .cor4{
+            background-color: lightslategrey;
+            width: 100px;
+            height: 100px;
+            display: block;
+        }
+        span{
+            background-color: brown;
+        }
+        .box1{
+            background-color:lightblue;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .box2{
+            background-color:lightcoral;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .box3{
+            background-color:lightgreen;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        .box4{
+            background-color:lightseagreen;
+            width: 100px;
+            height: 100px;
+            display: inline-block;
+        }
+        </style>
+</head>
+<body>
+
+    <h1>Display</h1>
+    <div class="conteudo">
+        <!-- DISPLAY BLOCK -->
+        <h3 class="cor1">Conteúdo 1</h3>
+        <h3 class="cor2">Conteúdo 2</h3>
+        <h3 class="cor3">Conteúdo 3</h3>
+        <h3 class="cor4">Conteúdo 4</h3>
+
+         <!-- DISPLAY INLINE -->
+         <a style="display: block; width: 100px; height: 100px; background-color: lightpink;" href="">click 1</a>
+         <a href="">click 2</a>
+         <a href="">click 3</a>
+         <a href="">click 4</a>
+
+         <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste officiis modi, delectus, iure dolorem optio atque quae odio ea asperiores aliquid pariatur. <span>facilis reiciendis incidunt nulla quam. Omnis, eius tenetur!</span>
+            <!-- SPAN SERVE PARA MODIFICAR ALGO ESPECÍFICO EM UM PARAGRAFO -->
+        </p>
+
+          <!-- DISPLAY INLINE-BLOCK -->
+          <h3 class="box1">conteudo 1</h3>
+          <h3 class="box2">conteudo 2</h3>
+          <h3 class="box3">conteudo 3</h3>
+
+          <!-- DISPLAY NONE -->
+          <h3 style="display: none;" class="box4">conteudo 4</h3>
+          <!-- NONE FAZ DESAPARECER -->
+          
+    </div>
+    
+</body>
+</html>

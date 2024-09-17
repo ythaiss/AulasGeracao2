@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+.conteudo{
+    background-color: grey;
+}
+.caixa1{
+    background-color: lightgreen;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: relativo;
+    /*POSITION:STATIC NÃO MUDA NADA (JÁ É PADRÃO) */
+    display: inline-block;
+
+    /* top: 
+    bottom :
+    right:
+    left: 
+    z-index:  */
+    /*POSITION:RELATIVO MOVIMENTO EM RELAÇÃO A POSIÇÃO QUE ELE ESTAVA */
+}
+.caixa2{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: absolute;
+    display: inline-block;
+
+    top:0px ;
+   
+    /* POSITTION:ABSOLUTE VAI 'BUSCAR' OUTRA DIV Q NÃO TENHA POSIT:RELATIVE */
+}
+.caixa3{
+    background-color: lightcoral;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    position: static;
+    display: inline-block;
+}
+.conteudo2{
+    margin-top: 250px;
+    background-color: blueviolet;
+}
+
