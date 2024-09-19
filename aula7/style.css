@@ -1,0 +1,59 @@
+.conteudo{
+    background-color: gray;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-direction: row;
+    /* row: Os itens são colocados na mesma direção do texto.
+    row-reverse: Os itens são colocados opostos à direção do texto.
+    column: Os itens são colocados de cima para baixo.
+    column-reverse: Os itens são colocados de baixo para cima. */
+    flex-wrap: nowrap;
+    /* nowrap: não quebra       wrap: quebra */
+    justify-content: flex-start;
+    /* flex-start: Os itens são alinhados ao lado esquerdo do contêiner.
+    flex-end: Os itens são alinhados ao lado direito do contêiner.
+    center: Os itens são alinhados no centro do contêiner.
+    space-between: Os itens são exibidos com espaçamento igual entre eles.
+    space-around: Os itens são exibidos com espaçamento igual ao redor deles. */
+    align-items: flex-start;
+    /* flex-start: Os itens são alinhados ao topo do contêiner.
+    flex-end: Os itens se alinham ao fundo do contêiner.
+    center: Os itens são alinhados no centro vertical do contêiner.
+    baseline: Os itens são exibidos na linha de base do contêiner.
+    stretch: Os itens são esticados para caber no recipiente. */
+    align-content: flex-start;
+}
+.caixa1{
+    background-color: lightblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    order: 1;
+    /* order da prioridade para o menor número (0 é a ordem padrão) */
+}
+.caixa2{
+    background-color: lightcoral;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    order: 2;
+}
+.caixa3{
+    background-color: lightslategray;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.caixa4{
+    background-color: lightgreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.caixa5{
+    background-color: lightseagreen;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
