@@ -30,3 +30,12 @@ header{
      text-align: left;
      padding: 10px;
    }
+   footer{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+  }
+  main h2{
+    text-align: center;
+  }
+  
