@@ -1,0 +1,10 @@
+
+.cardPrincipal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 200px;
+    background-color: #252525;
+    color: #fff;
+}
