@@ -2,7 +2,7 @@ let numSorteado = 0;
 let chances = 4;
 
 function numAleatorio (){
-    numSorteado = Math.floor(Math.random() * 51);
+    numSorteado = Math.floor(Math.random() * 50) + 1;
 
     console.log(numSorteado);
 }
@@ -30,7 +30,7 @@ function numVerificacao (){
         alert(`O número sorteado é MAIOR. Você tem ${chances} chance(s)`);
     }
     else{
-        alert(`Você acertou o número sorteado!!`)
+        alert(`PARABÉNS!! Você acertou o número sorteado.`)
     }
 }
 

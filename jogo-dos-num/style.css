@@ -54,6 +54,12 @@ h1{
     
 }
 
+h3{
+    color: antiquewhite;
+    box-shadow: 0px 10px 40px #00000056;
+    margin-top: 5px;
+}
+
 .cardContainer{
     display: flex;
     justify-content: center;
